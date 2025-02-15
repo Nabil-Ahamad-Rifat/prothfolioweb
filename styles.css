@@ -1,0 +1,617 @@
+/* Custom Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background: #222831;
+    font-family: "Poppins", serif;
+  }
+  
+  header {
+    background: #333;
+    padding: 100px 0;
+  }
+  
+  header h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  
+  header p {
+    font-size: 1.5rem;
+  }
+  
+  section {
+    padding: 80px 0;
+  }
+  .navbar{
+    background: #222831;
+  }
+  .navbar-m{
+    display: block;
+  }
+  
+  .bg-primary {
+    background: #007bff !important;
+  }
+  
+  .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-light {
+    color: #007bff;
+    font-weight: bold;
+  }
+
+
+  /* Custom CSS for inline navbar items */
+.navbar-m .navbar-nav {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    list-style: none; /* Remove bullet points */
+    padding-left: 0; /* Remove default padding */
+  }
+  
+  .navbar-m .nav-item {
+    display: inline-block; /* Display items inline */
+    margin-right: 15px; /* Add spacing between items */
+  }
+  
+  .navbar-m .nav-link {
+    color: #EEEEEE; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    padding: 8px 12px; /* Add padding for better clickability */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+  }
+  
+ 
+  
+  .navbar-m .nav-link:hover {
+    background-color: #1d2022; /* Hover background */
+    color: #007bff; /* Hover text color */
+  }
+  
+  .navbar-m .nav-link.disabled {
+    color: #6c757d; /* Disabled link color */
+    pointer-events: none; /* Disable click events */
+  }
+
+  /* this is hero section */
+  .hero.text1{
+    color: #EEEEEE;
+    font-size: 96px;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+ }
+
+ /* hero section  */
+
+
+ /* Hero Section Styling */
+ .herof{
+    background: #222831;
+    align-items: center;
+    text-align: center;
+ }
+.hero {
+    padding:  10px 0; /* Add padding for spacing */
+    text-align: center;
+    align-items: center;
+  }
+  
+  .text1 {
+    font-size: 3rem; /* Large font size for "CREATIVE UI" */
+    font-weight: bold;
+    color: #EEEEEE; /* Dark text color */
+    font-family: popins;
+    font-weight: 700;
+  }
+  
+  .text2 {
+    font-size: 2.5rem; /* Slightly smaller font size for "DESIGNER" */
+    font-weight: bold;
+    color: #00ADB5; /* Blue text color */
+    margin-bottom: 20px; /* Add spacing below */
+    font-family: "Poppins", serif;
+    font-weight:700 ;
+  }
+  
+  .herobtn {
+    display: flex; /* Align buttons horizontally */
+    gap: 15px; /* Add spacing between buttons */
+    font-size: px;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+  }
+  
+  .herobtn button {
+    padding: 2px 12px; /* Add padding for better clickability */
+     /* Button text size */
+    font-weight: bold; /* Bold text */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth hover effect */
+  }
+  
+  .herobtn button:first-child {
+    background-color: #007bff; /* Blue background for "Hire me" button */
+    color: #fff; /* White text */
+  }
+  
+  .herobtn button:first-child:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+  }
+  
+  .herobtn button:last-child {
+    background-color: #f8f9fa; /* Light background for "Download CV" button */
+    color: #333; /* Dark text */
+    border: 1px solid #ddd; /* Light border */
+  }
+  
+  .herobtn button:last-child:hover {
+    background-color: #e9ecef; /* Slightly darker background on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+  }
+  
+  .herobtn button i {
+    margin-left: 8px; /* Add spacing between text and icon */
+  }
+  
+  /* Image Styling */
+  .hero img {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    /* border-radius: 10px; Rounded corners */
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); Add shadow for depth */
+    /* transition: transform 0.3s, box-shadow 0.3s; Smooth hover effect */
+  }
+  
+/* about section */
+
+/* Two-Color Text Styling */
+.color1 {
+    color: #EEEEEE; /* First color (e.g., blue) */
+    font-size: 2.5rem; /* Adjust font size as needed */
+    font-weight: 700; /* Bold text */
+    font-size: 64px;
+}
+
+.color2 {
+    color: #00ADB5; /* Second color (e.g., dark gray) */
+    font-size: 2.5rem; /* Match font size with .color1 */
+    font-weight: 700; /* Bold text */
+    font-size: 64px;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 60px 0; /* Add padding for spacing */
+  }
+  
+  /* Text Styling */
+  .lead {
+    font-size: 1.25rem; /* Adjust paragraph text size */
+    color: #EEEEEE; /* Slightly darker gray for readability */
+    margin-top: 18px; /* Add spacing above the paragraph */
+    margin-bottom: 100px;
+  }
+  
+  /* Image Styling */
+  .img-fluid {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+  }
+  
+  .img-fluid:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+
+
+
+  /* recent work */
+
+/* Two-Color Text Styling */
+.color1 {
+    color: #EEEEEE; /* Blue color for "My" */
+    font-size: 2.5rem; /* Large font size */
+    font-weight: 700; /* Bold text */
+  }
+  
+  .color2 {
+    color: #00ADB5; /* Dark gray color for "Recent Work" */
+    font-size: 2.5rem; /* Same font size as .color1 */
+    font-weight: 700; /* Bold text */
+  }
+  
+  /* Filter Buttons Styling */
+  .btn-outline-primary {
+    /* border: 2px solid #007bff; */
+    color: #007bff;
+    transition: all 0.3s;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #00ADB5;
+    color: #fff;
+  }
+  
+  .btn-outline-primary.active {
+    background-color: #00ADB5;
+    color: #fff;
+  }
+  
+  /* Work Pictures Grid Styling */
+  .work-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .work-item img {
+    width: 100%; /* Ensure images fill the container */
+    height: 250px; /* Fixed height for images */
+    object-fit: cover; /* Ensure images cover the area */
+    transition: filter 0.3s; /* Smooth blur effect */
+  }
+  
+  .work-item:hover img {
+    filter: blur(5px); /* Blur effect on hover */
+  }
+
+
+
+  /* get a project section */
+  /* Section Styling */
+section {
+    padding: 80px 0; /* Add padding for spacing */
+  }
+  
+  /* Heading Styling */
+  h2 {
+    font-size: 2.5rem; /* Large font size */
+    font-weight: 700; /* Bold text */
+    color: #EEEEEE; /* Dark text color */
+    margin-bottom: 20px; /* Add spacing below the heading */
+  }
+  
+  /* Form Styling */
+  form {
+    background: #222831; /* Light background for the form */
+    padding: 30px; /* Add padding inside the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  /* Input and Textarea Styling */
+  .form-control {
+    border: 1px solid #903737; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Add padding for better input */
+    font-size: 1rem; /* Font size for inputs */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+  }
+  
+  .form-control:focus {
+    border-color: #00ADB5; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    background-color: #00ADB5; /* Blue background */
+    border-radius: 10px; /* Remove default border */
+    padding: 12px 24px; /* Add padding for better clickability */
+    font-size: 1rem; /* Font size for the button */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth hover effect */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+  }
+
+
+  .fromt{
+    font-size: 13px;
+    color: #EEEEEE;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    text-align: left;
+  }
+  .fromcont{
+    font-size: 10px;
+    color: #222831;
+    font-weight: 400;
+    background: #222831;
+  }
+ 
+  .btn{
+    background: #00ADB5;
+    color: #EEEEEE;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    transition: all 0.3s;
+  }
+  .form-control{
+    background: #222831;
+    color: #EEEEEE;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    transition: all 0.3s;
+  }
+  .form-control::placeholder {
+    color: #999; /* Light gray color for placeholders */
+     /* Ensure the placeholder is fully visible */
+  }
+.from-d{
+    background: #222831;
+    border-radius: 10px;
+}
+
+
+
+  /* Section Styling */
+section {
+    padding: 80px 0; /* Add padding for spacing */
+  }
+  
+  /* Form Styling */
+  form {
+    background: #f8f9fa; /* Light background for the form */
+    padding: 30px; /* Add padding inside the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  /* Input and Textarea Styling */
+  .form-control {
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Add padding for better input */
+    font-size: 1rem; /* Font size for inputs */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+  }
+  
+  .form-control:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+  }
+  
+  /* Placeholder Styling */
+  .form-control::placeholder {
+    color: #999; /* Light gray color for placeholders */
+    opacity: 1; /* Ensure the placeholder is fully visible */
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    background-color: #007bff; /* Blue background */
+    border: none; /* Remove default border */
+    padding: 12px 24px; /* Add padding for better clickability */
+    font-size: 1rem; /* Font size for the button */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth hover effect */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+  }
+.fotterc{
+    background: #222831;
+    color: #EEEEEE;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 20px 0;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .footer-main{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  
+  /* Footer Styling */
+.fotterc {
+    background-color: #222831; /* Dark background */
+    padding: 20px 10px; 
+    margin-bottom: 50px;/* Add padding for spacing */
+  }
+  
+  /* Link and Icon Styling */
+  .footer1 {
+    text-decoration: none; /* Remove underline */
+    transition: opacity 0.3s;
+    padding-bottom: 20px; 
+    /* Smooth hover effect */
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  .footer1:hover {
+    opacity: 0.7; /* Slightly fade on hover */
+  }
+  
+
+  footer{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .nnn{
+    padding: 20px;
+  }
+
+
+
+  /* Media Queries for Responsiveness */
+
+/* For tablets and small desktops */
+@media (max-width: 991.98px) {
+    /* Navbar */
+    .navbar-m .navbar-nav {
+      flex-direction: column; /* Stack navbar items vertically */
+      align-items: center; /* Center align items */
+    }
+  
+    .navbar-m .nav-item {
+      margin-right: 0; /* Remove margin between items */
+      margin-bottom: 10px; /* Add spacing below items */
+    }
+  
+    /* Hero Section */
+    .hero {
+      flex-direction: column; /* Stack hero content vertically */
+      text-align: center; /* Center align text */
+    }
+  
+    .herobtn {
+      flex-direction: column; /* Stack buttons vertically */
+      gap: 10px; /* Add spacing between buttons */
+    }
+  
+    .herobtn button {
+      width: 100%; /* Full width buttons */
+    }
+  
+    /* About Me Section */
+    .col-md-6 {
+      text-align: center; /* Center align text */
+    }
+  
+    /* Recent Works Section */
+    .col-md-4 {
+      margin-bottom: 20px; /* Add spacing below each work item */
+    }
+  
+    /* Get a Project Section */
+    .from-b {
+      margin-top: 20px; /* Add spacing above the form */
+    }
+  
+    .from-d {
+      padding: 0 15px; /* Add padding to the form */
+    }
+  
+    /* Footer */
+    .nnn {
+      flex-direction: column; /* Stack footer links vertically */
+      gap: 10px; /* Add spacing between links */
+    }
+  }
+  
+  /* For mobile devices */
+  @media (max-width: 767.98px) {
+    /* Hero Section */
+    .text1 {
+      font-size: 2rem; /* Reduce font size for "CREATIVE UI" */
+    }
+  
+    .text2 {
+      font-size: 1.8rem; /* Reduce font size for "DESIGNER" */
+    }
+  
+    /* About Me Section */
+    .color1, .color2 {
+      font-size: 2rem; /* Reduce font size for "About me" */
+    }
+  
+    .lead {
+      font-size: 1rem; /* Reduce font size for paragraph */
+    }
+  
+    /* Recent Works Section */
+    .btn-outline-primary {
+      font-size: 0.9rem; /* Reduce font size for buttons */
+      padding: 8px 16px; /* Adjust button padding */
+    }
+  
+    /* Get a Project Section */
+    .fromt {
+      font-size: 0.9rem; /* Reduce font size for form labels */
+    }
+  
+    .form-control {
+      font-size: 0.9rem; /* Reduce font size for inputs */
+      padding: 8px 16px; /* Adjust input padding */
+    }
+  
+    .btn-primary {
+      font-size: 0.9rem; /* Reduce font size for button */
+      padding: 10px 20px; /* Adjust button padding */
+    }
+  
+    /* Footer */
+    .footer1 {
+      font-size: 0.9rem; /* Reduce font size for footer links */
+    }
+  }
+  
+  /* For very small devices */
+  @media (max-width: 575.98px) {
+    /* Hero Section */
+    .text1 {
+      font-size: 1.5rem; /* Further reduce font size for "CREATIVE UI" */
+    }
+  
+    .text2 {
+      font-size: 1.3rem; /* Further reduce font size for "DESIGNER" */
+    }
+  
+    /* About Me Section */
+    .color1, .color2 {
+      font-size: 1.5rem; /* Further reduce font size for "About me" */
+    }
+  
+    .lead {
+      font-size: 0.9rem; /* Further reduce font size for paragraph */
+    }
+  
+    /* Recent Works Section */
+    .btn-outline-primary {
+      font-size: 0.8rem; /* Further reduce font size for buttons */
+      padding: 6px 12px; /* Further adjust button padding */
+    }
+  
+    /* Get a Project Section */
+    .fromt {
+      font-size: 0.8rem; /* Further reduce font size for form labels */
+    }
+  
+    .form-control {
+      font-size: 0.8rem; /* Further reduce font size for inputs */
+      padding: 6px 12px; /* Further adjust input padding */
+    }
+  
+    .btn-primary {
+      font-size: 0.8rem; /* Further reduce font size for button */
+      padding: 8px 16px; /* Further adjust button padding */
+    }
+  
+    /* Footer */
+    .footer1 {
+      font-size: 0.8rem; /* Further reduce font size for footer links */
+    }
+  }
